@@ -13,5 +13,8 @@ package leetcode
 // 输出：2.50000
 // 解释：合并数组 = [1,2,3,4] ，中位数 (2 + 3) / 2 = 2.5
 func FindMedianSortedArrays(nums1 []int, nums2 []int) float64 {
+	if (len(nums1)+len(nums2))%2 == 0 {
+		//(len(nums1) + len(nums2) - 1) / 2 = midKey
+	}
 	return 0
 }
